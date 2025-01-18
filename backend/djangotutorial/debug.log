@@ -1,0 +1,42 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Processing image with prompt: blue background
+Temporary file saved at: /tmp/tmpmxxcs9d9.png
+HTTP Request: GET https://lllyasviel-iclight-v2.hf.space/config "HTTP/1.1 200 OK"
+HTTP Request: GET https://lllyasviel-iclight-v2.hf.space/info?serialize=False "HTTP/1.1 200 OK"
+Gradio client initialized successfully
+Starting image processing
+HTTP Request: POST https://lllyasviel-iclight-v2.hf.space/queue/join "HTTP/1.1 200 OK"
+HTTP Request: GET https://lllyasviel-iclight-v2.hf.space/heartbeat/7ed55069-967d-4f89-8d0a-50d673f396b4 "HTTP/1.1 200 OK"
+HTTP Request: GET https://lllyasviel-iclight-v2.hf.space/heartbeat/e2905890-95b2-4ffe-a6ef-c89a07a63acf "HTTP/1.1 200 OK"
+HTTP Request: GET https://lllyasviel-iclight-v2.hf.space/queue/data?session_hash=e2905890-95b2-4ffe-a6ef-c89a07a63acf "HTTP/1.1 200 OK"
+Processing error: The upstream Gradio app has raised an exception but has not enabled verbose error reporting. To enable, set show_error=True in launch().
+General error: The upstream Gradio app has raised an exception but has not enabled verbose error reporting. To enable, set show_error=True in launch().
+Internal Server Error: /api/process-image/
+Internal Server Error: /api/process-image/
+"POST /api/process-image/ HTTP/1.1" 500 203
+"POST /api/process-image/ HTTP/1.1" 500 203
+/workspaces/expo-app-first/backend/djangotutorial/image_processor/views.py changed, reloading.
+/workspaces/expo-app-first/backend/djangotutorial/image_processor/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Processing image with prompt: blue background
+Temporary file saved at: /tmp/tmphnqbm88p.png
+Processing error: 401 Client Error. (Request ID: Root=1-678b91dd-0214b65b2988d31608ebd974;a2e12a94-e36a-4158-998e-1a9c4f89d360)
+
+Repository Not Found for url: https://huggingface.co/api/spaces/huggingface/diffusion-edge.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+Invalid username or password.
+General error: 401 Client Error. (Request ID: Root=1-678b91dd-0214b65b2988d31608ebd974;a2e12a94-e36a-4158-998e-1a9c4f89d360)
+
+Repository Not Found for url: https://huggingface.co/api/spaces/huggingface/diffusion-edge.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+Invalid username or password.
+Internal Server Error: /api/process-image/
+Internal Server Error: /api/process-image/
+"POST /api/process-image/ HTTP/1.1" 500 460
+"POST /api/process-image/ HTTP/1.1" 500 460
+/workspaces/expo-app-first/backend/djangotutorial/mysite/settings.py changed, reloading.
+/workspaces/expo-app-first/backend/djangotutorial/mysite/settings.py changed, reloading.
